@@ -1,0 +1,154 @@
+#contentBody{
+	padding-right:20px;
+}
+
+#main{
+	text-align: center;
+	margin-top: 100px;
+}
+
+#officeInfo {
+	text-align: left;
+}
+
+#officeInfo  h1{
+	text-transform: none;
+}
+
+.tab-content{
+	overflow:visible;
+}
+.insideClikee{
+	background-color: white;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 20px;
+	min-height: 240px;
+
+	padding-top: 2%;
+	padding-left: 4%;	
+	padding-right: 4%;
+	
+	-webkit-box-shadow: 0px 0px 8px rgba(50, 50, 50, 0.2);
+	-moz-box-shadow:    0px 0px 8px rgba(50, 50, 50, 0.2);
+	box-shadow:         0px 0px 8px rgba(50, 50, 50, 0.2);	
+}
+
+.clickeeID{
+	font-size: 28px;
+	padding-top: 2px;
+}
+
+.clickeeLogo{
+	padding-bottom: 8px;
+}
+
+.deviceStatus{
+	margin-bottom: 2px;
+}
+
+.deviceName{
+	padding-bottom: 10%;
+}
+
+.clickeeDevice{
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.disconnectedStatus{
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.iconFloorMain{
+	background-color: whitesmoke;
+}
+
+.iconFloorFooter{
+	background-position: bottom left;
+	background-size: 100%;
+}
+
+#roomLabel{
+	background-color: whitesmoke;
+}
+
+#roomArea{
+	background-color: whitesmoke;
+	margin-bottom: 0px;
+}
+
+#roomBodyFooter{
+	height: 61px;
+	background-color: whitesmoke;
+	margin-bottom: 40px;
+}
+
+#roomSetting{
+	margin-bottom: 0px;
+}
+
+#setting{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#roomSetting{
+	border: none;
+}
+
+#roomRule{
+	border: none;
+	background-color: whitesmoke;
+}
+
+#RoomEmployee {
+	border: none;
+}
+
+#bookingHistory{
+	border: none;
+	background-color: whitesmoke;
+}
+
+#roomEmployee{
+	background-color: white;
+}
+
+#roomRuleHd{
+	background-color: whitesmoke;
+}
+
+#roomSetting.accordion-heading{
+	border-bottom: solid 1px #DDD;
+}
+
+#collapseOne{
+	background-color: whitesmoke;
+}
+
+#collapseThree{
+	background-color: whitesmoke;
+}
+
+
+#roomSettingTb{
+	border-top: 1px solid #DDD;
+	margin-top: 30px;
+}
+
+#roomSettingTb td{
+	text-align: center;
+	width: 50%;
+	border:none;
+}
+
+#ruleTable{
+	margin-top: 30px;
+	border-top: 1px solid #DDD;
+}
+
+#ruleTimeline{
+	margin-bottom: 20px;
+}

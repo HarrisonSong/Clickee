@@ -1,0 +1,93 @@
+.navbar{
+	font-weight: 200px;
+	font-size: 25px;
+}
+
+.dropdown{
+	margin-top:10px;
+}
+
+.logo{
+	color:white;
+	margin-top:0px;
+	font-family: 'Petit Formal Script', cursive;
+}
+
+div.content{
+	margin-top:50px;
+}
+
+.table.dashboardTable td {
+	border-top: none;
+}
+
+#main{
+	margin-top: 80px;
+}
+
+#manager{
+	padding-top:20px;
+}
+
+#employee{
+	padding-top:20px;
+}
+
+#createOffice{
+	margin-right:19px;
+	margin-bottom:10px;
+	width:90%;
+	height:150px;
+	font-size:20px;
+	font-family:Open Sans;
+}
+
+#manageOffice{
+	margin-right:19px;
+	width:90%;
+	height:150px;
+	font-size:20px;
+	font-family:Open Sans;
+}
+
+#managerManageRoom{
+	margin-right:19px;
+	margin-bottom:10px;
+	width:90%;
+	height:150px;
+	font-size:20px;
+	font-family:Open Sans;
+}
+
+#joinOffice{
+	margin-right:19px;
+	width:90%;
+	height:150px;
+	font-size:20px;
+	font-family:Open Sans;
+}
+
+#booking{
+	margin-right:19px;
+	width:90%;
+	height:150px;
+	font-size:20px;
+	font-family:Open Sans;
+}
+
+#employeeManageRoom{
+	margin-right:19px;
+	margin-bottom:10px;
+	width:90%;
+	height:150px;
+	font-size:20px;
+	font-family:Open Sans;
+}
+
+.btn-success{
+	background-color: #208080;
+}
+
+.btn-success:hover, .btn-success:active, .btn-success.active, .btn-success.disabled {
+	background-color: #00ABAB;
+}

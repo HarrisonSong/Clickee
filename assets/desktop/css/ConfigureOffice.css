@@ -1,0 +1,120 @@
+#contentBody{
+	padding-right:20px;
+}
+
+#main{
+	text-align: center;
+	margin-top: 100px;
+}
+
+.needMargin{
+	margin-left:20px;
+}
+
+#createNewOfficeButton{
+	margin: 20px;
+}
+
+#createNewOffice input{
+	height: 30px;
+}
+
+#roomArea{
+	/*background: url('http://ec2-122-248-217-213.ap-southeast-1.compute.amazonaws.com/assets/desktop/img/roomBody.png') top left no-repeat;*/
+	background-size: contain;
+	color: #333;
+	margin-bottom: 0px;
+}
+
+#RoomBodyFooter{
+	margin-bottom: 50px;
+	background-size:contain;
+}
+
+#iconFloorMain{
+	background-color: whitesmoke;
+}
+
+.iconFloorFooter{
+	background-position: bottom left;
+}
+
+#officeInfo {
+	text-align: left;
+}
+
+#officeInfo  h1{
+	text-transform: none;
+}
+
+.switches{
+	background-color: white;
+	width: 25%;
+	min-height: 170px;
+	margin: 20px;
+	padding: 20px;
+	
+	-webkit-box-shadow: 0px 0px 8px rgba(50, 50, 50, 0.2);
+	-moz-box-shadow:    0px 0px 8px rgba(50, 50, 50, 0.2);
+	box-shadow:         0px 0px 8px rgba(50, 50, 50, 0.2);
+}
+
+.switches:hover{
+	background-color: white;
+}
+
+.switches:active{
+	background-color: white;
+}
+
+.clickeeID{
+	font-size: 21px;
+	color: #333;
+	padding-top: 2px;
+}
+
+.clickeeLogo{
+	padding-bottom: 8px;
+}
+
+.devicesTable{
+	margin-bottom: 0px;
+}
+
+.devicesTable th{
+	text-align: center;
+}
+
+.devicesTable td{
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-align: center;
+}
+
+#roomGeneralGuide{
+	padding-top: 30px;
+}
+
+#roomButtonEdit {
+	padding-left: 40px;
+}
+
+#roomButtonEdit  img{
+	padding-bottom: 10px;
+}
+
+#roomLabel span{
+	padding-left: 10px;
+}
+
+.modal h3{
+	text-transform: none;
+}
+
+#EditSwitch td{
+	border: none;
+}
+
+#EditRoom td{
+	border:none;
+}

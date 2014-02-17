@@ -1,0 +1,21 @@
+body {
+	font-family: 'Segoe UI Light','Helvetica Neue','Segoe UI','Segoe WP',sans-serif;
+}
+
+#ruleIntro{
+	text-align: center;
+}
+
+#emptyRule{
+	text-align: center;
+	margin-top: 120px;
+}
+
+.table.ruleTable td{
+	padding-bottom: 0px;
+	width: 25%;
+}
+
+#createNewSlot .form-horizontal .control-group .table td{
+	border-top: none;
+}

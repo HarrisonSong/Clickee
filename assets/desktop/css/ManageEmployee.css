@@ -1,0 +1,29 @@
+#emptyOffice{
+	text-align: center;
+}
+
+#EmployeeListContainer{
+	margin-bottom: 30px;
+}
+
+#EmployeeListContainer span{
+	font-family: 'Segoe UI Light','Helvetica Neue','Segoe UI','Segoe WP',sans-serif;
+	font-size: 20px;
+}
+
+#PendingListContainer  span{
+	font-family: 'Segoe UI Light','Helvetica Neue','Segoe UI','Segoe WP',sans-serif;
+	font-size: 20px;
+}
+
+#addNewEmployee{
+	margin-top: 20px;
+}
+
+#officeEmployees{
+	margin-top: 20px;
+}
+
+#pendingEmployees{
+	margin-top: 20px;
+}

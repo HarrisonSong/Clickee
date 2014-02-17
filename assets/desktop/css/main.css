@@ -1,0 +1,268 @@
+h1,h2,h3,h4,h5,p{
+	font-weight: normal;
+}
+
+header{
+	height: 60px;
+	position: relative;
+	
+	background-image: -ms-linear-gradient(top left, #3079ED 0%, #4D90FE 100%);
+	background-image: -moz-linear-gradient(top left, #3079ED 0%, #4D90FE 100%);
+	background-image: -o-linear-gradient(top left, #3079ED 0%, #4D90FE 100%);
+	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #3079ED), color-stop(1, #4D90FE));
+	background-image: -webkit-linear-gradient(top left, #3079ED 0%, #4D90FE 100%);
+	background-image: linear-gradient(to bottom right, #3079ED 0%, #4D90FE 100%);
+	
+	-webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .1),inset 0 -1px 0 rgba(0, 0, 0, .07);
+	box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .1),inset 0 -1px 0 rgba(0, 0, 0, .07);
+	/*
+	background-image: -ms-linear-gradient(top left, #006FFF 0%, #0091FF 100%);
+	background-image: -moz-linear-gradient(top left, #006FFF 0%, #0091FF 100%);
+	background-image: -o-linear-gradient(top left, #006FFF 0%, #0091FF 100%);
+	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #006FFF), color-stop(1, #0091FF));
+	background-image: -webkit-linear-gradient(top left, #006FFF 0%, #0091FF 100%);
+	background-image: linear-gradient(to bottom right, #006FFF 0%, #0091FF 100%);
+	*/
+}
+
+/*
+.btn-primary{
+	background-image: -ms-linear-gradient(bottom, #3079ED 0%, #4D90FE 100%);
+	background-image: -moz-linear-gradient(bottom, #3079ED 0%, #4D90FE 100%);
+	background-image: -o-linear-gradient(bottom, #3079ED 0%, #4D90FE 100%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #3079ED), color-stop(1, #4D90FE));
+	background-image: -webkit-linear-gradient(bottom, #3079ED 0%, #4D90FE 100%);
+	background-image: linear-gradient(to top, #3079ED 0%, #4D90FE 100%);
+	
+	background-image: -ms-linear-gradient(top, #006FFF 0%, #0091FF 100%);
+	background-image: -moz-linear-gradient(top, #006FFF 0%, #0091FF 100%);
+	background-image: -o-linear-gradient(top, #006FFF 0%, #0091FF 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #006FFF), color-stop(1, #0091FF));
+	background-image: -webkit-linear-gradient(top, #006FFF 0%, #0091FF 100%);
+	background-image: linear-gradient(to bottom, #006FFF 0%, #0091FF 100%);
+	
+	background-color: #3079ED;
+	
+	border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+	
+	-webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .1),inset 0 -1px 0 rgba(0, 0, 0, .07);
+	box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .1),inset 0 -1px 0 rgba(0, 0, 0, .07);
+}
+
+.btn-primary:hover{
+	background-color: #3079ED;
+}
+*/
+
+.btn-red{
+	background-color: #DF004F;
+}
+
+.btn-red:hover{
+	background-color: #EA0036;
+}
+
+header h1 {
+	font-family: "Lucida Sans", Arial, Helvetica, sans-serif;
+	margin: 0 0 0 0;
+	margin-left:50px;
+	color: white;
+	
+	position: absolute;
+	bottom: 0;
+	padding-bottom: 15px;
+}
+
+body {
+	padding-top: 0px;
+	padding-bottom:0px;
+}
+
+#main {
+	
+	padding-top:0px;
+	padding-left:30px;
+	padding-right:30px;
+	padding-bottom: 0px;
+	background-color: white;
+}
+
+.container-fluid{
+	background-color: white;
+}
+
+.btn-help {
+	margin-top: 4px;
+	margin-right: 5px;	
+	width: 18px;
+	height: 18px;
+	background-size: 18px 18px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#basicInfo {
+	margin-top: 20px;
+}
+
+#basicInfo td{
+	border-top:none;
+}
+
+#basicInfo .infoLabel{
+	padding-left: 40px;
+	width: 20%;
+	text-align: left;
+}
+
+#basicInfo .info{
+	width: 80%;
+	text-align: left;
+}
+
+#roomArea{
+	padding: 0px;
+	background-size: 100% 300px;
+	background-color: whiteSmoke;
+}
+
+#roomLabel{
+	text-align: left;
+	text-transform: none;
+	padding-top: 30px;
+	background-size: contain;
+	background-color:transparent;
+}
+
+#roomLabel span{
+	padding-top: 10px;
+	padding-left: 40px;
+	text-transform: none;
+	font-weight: normal;
+	font-size: 28px;
+	font-family: "Segoe UI Light","Helvetica Neue","Segoe UI","Segoe WP",sans-serif;
+}
+
+#RoomBodyFooter {
+	width: 100%;
+	height: 61px;
+	background-size: 100% 61px;
+}
+
+.iconFloorHeader{
+	background-size: contain;
+	height:61px;
+}
+
+.iconFloorFooter{
+	background-size: contain;
+	height:61px;
+}
+
+.iconFloorMain{
+	background-size: contain;
+	padding:0;
+}
+
+#basicInfo {
+	margin-top: 20px;
+}
+
+#basicInfo td{
+	border-top:none;
+}
+
+#basicInfo .infoLabel{
+	width: 45%;
+	text-align: right;
+}
+
+#basicInfo .info{
+	width: 55%;
+	text-align: left;
+}
+
+.addRoom{
+	font-family: "Segoe UI Light","Helvetica Neue","Segoe UI","Segoe WP",sans-serif;
+	text-shadow:none;
+	color: white;
+	padding: 0 0 0 0;
+	border: 1px solid #D6D6D6;
+	margin:10px;
+	width:150px;
+	height:110px;
+}
+
+.addRoom:hover{
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, .01), 2px 2px 2px rgba(0, 0, 0, .1);
+}
+
+.addRoom p{
+	padding-top: 15px;
+}
+
+.privateRoom{
+	font-family: "Segoe UI Light","Helvetica Neue","Segoe UI","Segoe WP",sans-serif;
+	text-shadow:none;
+	color: #4E4E4E;
+	padding: 0 0 0 0;
+	border: 1px solid #D6D6D6;
+	margin:10px;
+	width:150px;
+	height:110px;
+	
+	-webkit-box-shadow: 0px 0px 8px rgba(50, 50, 50, 0.2);
+	-moz-box-shadow:    0px 0px 8px rgba(50, 50, 50, 0.2);
+	box-shadow:         0px 0px 8px rgba(50, 50, 50, 0.2);	
+}
+
+.privateRoom:active{
+	background-color: white;
+}
+
+.privateRoom:hover{
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, .01), 2px 2px 2px rgba(0, 0, 0, .1);
+	background-position: 0 0;	
+	/*
+	background-position: 50% 50%;
+	background-size: 120% 120%;
+	*/
+	color: #181818;
+}
+
+.privateRoom p{
+	padding-top: 15px;
+}
+
+.commonRoom{
+	font-family: "Segoe UI Light","Helvetica Neue","Segoe UI","Segoe WP",sans-serif;
+	text-shadow:none;
+	color: #4E4E4E;
+	padding: 0 0 0 0;
+	border: 1px solid #D6D6D6;
+	margin:10px;
+	width:150px;
+	height:110px;
+	
+	-webkit-box-shadow: 0px 0px 8px rgba(50, 50, 50, 0.2);
+	-moz-box-shadow:    0px 0px 8px rgba(50, 50, 50, 0.2);
+	box-shadow:         0px 0px 8px rgba(50, 50, 50, 0.2);	
+}
+
+.commonRoom:active{
+	background-color: #E3F9FF;
+}
+
+.commonRoom:hover{
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, .01), 2px 2px 2px rgba(0, 0, 0, .1);
+	background-position: 0 0;
+	/*
+	background-position: 50% 50%;
+	background-size: 120% 120%;
+	*/
+	color: #181818;
+}
+
+.commonRoom p{
+	padding-top: 15px;
+}

@@ -1,0 +1,113 @@
+#myCarousel{
+	margin-top: 80px;
+}
+
+#aboutClickeeTabs li{
+	width: 20%;
+}
+
+.carousel-control{
+	line-height: 25px;
+}
+
+#pageLabel{
+	text-transform: none;
+}
+
+.carousel-content {
+	margin-bottom: 0px;
+}
+
+.carousel-content td{
+	height: 340px;
+	border-top: 0px;
+	padding: 0;
+}
+
+.carousel-img{
+	width: 60%;
+}
+
+.carousel-wording{
+	width: 40%;
+}
+
+.carousel-wording {
+	background-color: whitesmoke;
+}
+
+.carousel-wording .hero-unit{
+	background-color: transparent;
+}
+
+.infoTable{
+	height: 300px;
+}
+
+.infoTable td{
+	border-top: none;
+}
+
+.infoTable-alt{
+	background-color: whitesmoke;
+	border : none;
+}
+
+.infoTable-alt td{
+	border: none;
+}
+
+#myCarousel{
+	margin-bottom: 0px;
+}
+
+#myCarousel td{
+	padding: 0px;
+}
+
+.infoGraphic{
+	width: 40%;
+}
+
+.infoWording{
+	width: 60%;
+	height: 75%
+}
+
+.infoTip{
+	height: 25%;
+}
+
+.infoGraphicWordOnly{
+	font-size: 40px;
+	font-weight: 100px;
+	padding-top: 40px;
+}
+
+#info0{
+	padding: 40px;
+}
+
+#info1{
+	padding: 0px;
+	border: 1px whitesmoke solid;
+}
+
+#infoWording1{
+	padding: 40px;
+	padding-right: 100px;
+}
+
+.infoBlank{
+	width: 20%;
+}
+
+.infoTip{
+	font-size: 20px;
+	border-left: 5px dotted #EBEBEB;
+	border-top: 5px dotted #EBEBEB;
+}
+
+#infoManager{
+	margin-top: 50px;
+}

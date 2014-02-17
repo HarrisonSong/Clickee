@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Staff Room</title>
+<style type="text/css">
+.light-bulb		{ position:relative; width:150px; height:150px; background:url(lightbulb.png) no-repeat -150px 0;  z-index:800; }
+.light-bulb2	{ width:150px; height:150px; background:url(lightbulb.png) no-repeat 0 0;}
+body{
+	background-color:#000;
+	color:#FFF;
+}
+.mytr td {
+	border-top:#FFF 1px solid;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+</style>
+<script language="javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script language="javascript">
+var max_no = 3;
+var clickees = new Array("CLI4001", "CLI4002", "CLI4003");
+var devices = new Array();
+devices[0] = new Array("Left 1", "Left 2", "Left 3");
+devices[1] = new Array("Light 4", "Light 5", "Light 6");
+devices[2] = new Array("Light 7", "Light 8", "Light 9");
+
+var global_data = new Array(0);
+function syn(clickee, port, index) {
+	$.get('http://ec2-122-248-217-213.ap-southeast-1.compute.amazonaws.com/index.php/switches/dPort/'+clickee+'/'+(port+1)+'/'+global_data[index], 	function(data) {
+		var receive = data.split(":");
+		receive = parseInt(receive[1]); 
+		if (receive != 2) {
+			global_data[index] = receive; 
+			$("#"+index).css('opacity', receive);
+		}
+	});
+	
+	setTimeout('syn("'+clickee+'",'+port+','+index+')', 4000);
+}
+
+
+function toggle(clickee, port, index) {
+	global_data[index] = (global_data[index]+1)%2;
+	$.get('http://ec2-122-248-217-213.ap-southeast-1.compute.amazonaws.com/index.php/switches/pPort/'+clickee+'/'+(port+1)+'/'+global_data[index], function(data) {
+		console.log("toggle "+clickee+" : "+port);
+	});
+	
+	$("#"+index).css('opacity', global_data[index]);
+	
+}
+
+function init() {
+	for(var i = 0; i < clickees.length; i++) {
+		var clickee_id = clickees[i];
+		var d = devices[i];
+		var tr_string = '<tr class="mytr"><td style="width:100px"><font size="+3" >'+clickee_id+'</font></td>';
+		for (var j = 0; j < max_no; j++) {
+			var device_name = d[j];
+			if (device_name == "") {
+				tr_string += '<td align="center">&nbsp;</td>';
+			} else {
+				tr_string += '<td align="center"><div class="light-bulb"><div class="light-bulb2" style="opacity: 0;" id="'+(i*max_no+j)+'"></div></div>'+device_name+'</br><button onclick=\'toggle("'+clickee_id+'",'+j+', '+(i*max_no+j)+')\'>Physical Switch</button></td>';
+				global_data[i*max_no+j]=0;
+				syn(clickee_id, j, i*max_no+j);
+			}
+		}
+		tr_string += '</tr>';
+		$("#maintable > tbody:last").append(tr_string);
+	}
+}
+$(document).ready(function() {
+	init();
+});
+</script>
+</head>
+
+<body>
+<h2>Meeting Room 4 - Eusoff Hall</h2>
+<table width="100%" border="0" align="center" cellpadding="0px" cellspacing="0px" id="maintable">
+	<tbody>
+	</tbody>
+</table>
+
+
+</body>
+</html>

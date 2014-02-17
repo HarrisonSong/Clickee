@@ -1,0 +1,28 @@
+#EmployeeNavBar {
+	line-height: 20px;
+}
+
+#EmployeeNavBar .navbar-inner {
+	min-height:20px;height:36px;
+}
+
+#EmployeeNavBar a{
+	font-size:20px;text-transform: none;
+}
+
+#logout{
+	margin-top:8px;
+	font-size:20px;
+	font-family: 'Segoe UI Light','Helvetica Neue','Segoe UI','Segoe WP',sans-serif;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus{
+	background: #efefef; /* Old browsers */
+	background: -moz-linear-gradient(top, #efefef 0%, #efefef 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#efefef), color-stop(100%,#efefef)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #efefef 0%,#efefef 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #efefef 0%,#efefef 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #efefef 0%,#efefef 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #efefef 0%,#efefef 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', endColorstr='#efefef',GradientType=0 ); /* IE6-9 */
+}

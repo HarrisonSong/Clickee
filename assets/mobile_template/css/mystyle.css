@@ -1,0 +1,132 @@
+
+.blueheader {
+    color: #469BC2;
+    font-weight: bold;
+    text-decoration: none;
+}
+	.ow-check-in {
+    border-bottom: 1px dashed #D1D1D1;
+    color: #7F7F7F;
+    cursor: pointer;
+    font-size: 12px;
+}
+.ow-check-in-pic {
+    background-color: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    height: 85px;
+    padding: 4px;
+    position: relative;
+    width: 85px;
+}
+.ow-check-in-pic img {
+    height: 85px;
+    width: 85px;
+}
+.ow-check-in-shadow {
+    background: url("images/95px_shadow.png") no-repeat scroll right top transparent;
+    height: 13px;
+    width: 95px;
+}
+.ow-check-in-o {
+    background-color: #F7F7F7;
+}
+.ow-check-in table {
+    width: 100%;
+}
+.ow-check-in th {
+    padding: 13px 8px 0 0;
+    vertical-align: top;
+    width: 1%;
+}
+.ow-check-in td.no-pic {
+    padding-left: 5px;
+}
+.ow-check-in td {
+    padding: 13px 0;
+    vertical-align: top;
+}
+td.ow-check-in-m {
+    padding-left: 4px;
+}
+td.ow-check-in-r {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: right;
+}
+.ow-check-in-rest {
+    margin-top: 3px;
+}
+.ow-check-in-rating {
+    height: 18px;
+    margin-top: 5px;
+}
+.ow-check-in-date {
+    color: #BDBDBD;
+    padding-top: 3px;
+}
+.ow-check-in-comments {
+    color: #BDBDBD;
+    margin-left: 3px;
+    padding-top: 3px;
+}
+.ow-check-in-rating .ow-comment-icon {
+    margin-left: 6px;
+    margin-top: 1px;
+}
+.ow-check-in-user img {
+    height: 40px;
+    width: 40px;
+}
+.ow-check-in-img {
+    border: 1px solid #D7D7D7;
+    height: 38px;
+    width: 38px;
+}
+.ow-check-in-review {
+    margin-top: 3px;
+}
+.ow-check-in-review .ow-review-icon {
+    margin-bottom: -5px;
+    margin-right: 3px;
+}
+.ow-check-in-actions {
+    color: #BDBDBD;
+    margin-top: 5px;
+}
+
+.ow-rating-pk, .ow-rating-gy {
+    float: left;
+    height: 18px;
+    margin-right: 3px;
+    width: 18px;
+}
+.ow-rating-pk {
+    background: url("images/icon_sprite.png") no-repeat scroll -20px 0 transparent;
+}
+.ow-rating-gy {
+    background: url("images/icon_sprite.png") no-repeat scroll 0 0 transparent;
+}
+.ow-g-sub-h {
+    border-bottom: 1px dashed #8C8C8C;
+    padding: 13px 0;
+}
+
+.mypic {
+	background-color: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    padding: 4px;
+}
+
+.ow-g-point {
+    border-bottom: 1px dashed #8C8C8C;
+    padding: 13px 0;
+}
+
+.yui3-u {
+    display: inline-block;
+    letter-spacing: normal;
+    vertical-align: top;
+    word-spacing: normal;
+}
+
+.instruction{ position:relative; padding-right: 20px; background: url(../img/icon-finger.png) no-repeat right center;height: 32px; line-height: 32px; font-size: 12px; color: @lightTextColor;}
